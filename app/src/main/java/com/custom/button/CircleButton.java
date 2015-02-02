@@ -60,19 +60,15 @@ public class CircleButton extends View
     public void init(AttributeSet attrs)
     {
         // получаем кастомные атрибуты
-
+        circleRadius = getResources().getDimensionPixelOffset(R.dimen.circle_default_radius);
         if (attrs != null)
         {
             final TypedArray attrsArray = getContext().obtainStyledAttributes(attrs, R.styleable.circlebutton);
-            final int defaultRadius = getResources().getDimensionPixelOffset(R.dimen.circle_default_radius);
-            circleRadius = attrsArray.getDimensionPixelOffset(R.styleable.circlebutton_circle_radius, defaultRadius);
+
+            circleRadius = attrsArray.getDimensionPixelOffset(R.styleable.circlebutton_circle_radius, circleRadius);
             if (attrsArray.getString(R.styleable.circlebutton_circle_text) != null)
                 text = attrsArray.getString(R.styleable.circlebutton_circle_text);
             attrsArray.recycle();
-        }
-        else
-        {
-            circleRadius = 60;
         }
     }
 
