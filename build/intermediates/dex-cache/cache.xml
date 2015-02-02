@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/maxrovkin/dev/android/project/CicleButton/examplecirclebutton/build/intermediates/exploded-aar/CicleButton/app/unspecified/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="528a496ec6b3dd92499a189c093d82684d9abd8d">
+        <dex dex="/Users/maxrovkin/dev/android/project/CicleButton/examplecirclebutton/build/intermediates/pre-dexed/debug/classes-6d96cced0d2a0f22005bb352b8b8d0299fc57f3f.jar" />
+    </item>
+
+</items>

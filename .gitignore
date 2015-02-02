@@ -1,0 +1,9 @@
+# Created by .ignore support plugin (hsz.mobi)
+gradlew
+gradlew.bat
+import-summary.txt
+local.properties
+atlassian-ide-plugin.xml
+app/build
+.idea
+gradle
